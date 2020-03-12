@@ -1,0 +1,12 @@
+ERROR(15):Request out of bounds: req (10) > upper (3000) or  < lower (100)
+ERROR(15):Request out of bounds: req (3500) > upper (3000) or  < lower (100)
+Seek algorithm: SSTF
+	Lower cylinder:   100
+	Upper cylinder:  3000
+	Init cylinder:    200
+	Cylinder requests:
+		Cylinder   300
+		Cylinder   450
+Servicing   300
+Servicing   450
+SSTF traversal count =   250

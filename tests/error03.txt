@@ -1,0 +1,9 @@
+use sstf
+lowerCYL 100 
+upperCYL 300 
+initCYL 20   # init < lower (ABORT 12)
+cylreq 300
+cylreq 100
+cylreq 450
+cylreq 350
+end
